@@ -3,9 +3,18 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 		%sveltekit.head%
 	</head>
-	<body data-sveltekit-preload-data="hover">
+	<script>
+		import '@fontsource-variable/roboto-slab';
+	</script>
+	<style>
+    body {
+        font-family: 'Roboto Slab Variable', serif;
+    }
+</style>
+	<body data-sveltekit-preload-data="hover" class="bg-[#efeee8]">
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 </html>
