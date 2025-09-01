@@ -3,7 +3,6 @@
   import pr from '$lib/assets/PRbooks.png';
   import athome from '$lib/assets/athome.png';
 </script>
-
 <div class="flex flex-col gap-5 justify-around">
     <div class="m-auto flex flex-col gap-8 max-w-72 ">
         <p class="text-2xl name">Hello! My name is <span class="italic">Calvin</span></p>
@@ -26,8 +25,10 @@
                 Interested in language in relation to social idenity
             </li>
         </ul>
-        <div class="mx-auto mt-8 flex">
+        <div class="mx-auto mt-8 grid">
+            <p class="text-center" >Contact me!</p>
             <p class="italic underline text-[#6ac8c8]" ><a href="mailto:cclark347@gatech.edu">cclark347@gatech.edu</a></p>
+
         </div>
     </div>
 </div>

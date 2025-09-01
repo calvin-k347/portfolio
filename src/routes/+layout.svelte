@@ -7,14 +7,15 @@
 		stiffness: .1,
 		damping:.5 })
 	let size = new Spring(15)
+	let color = $state(180)
+	function scrollHandler() {
+		color = ( (window.scrollY - 10) % 180)
+	}
 	let { children } = $props();
 </script>
 <style>
-	circle {
-		fill: #6ac8c8;
-	}
 	svg {
-		position: absolute;
+		position: fixed;
 		width: 100%;
 		height: 100%;
 		left: 0;
@@ -33,30 +34,30 @@
 		}}"
 	role="presentation"
 	onmouseover="{(e) => {
-		if (e.target.tagName == "A") {
-			size.target = 20
+		if (e.target.closest("a")) {
+			size.target = 23
 		}
 	}}"
 	onmouseout="{(e) => {
-		if (e.target.tagName == "A") {
+		if (e.target.closest("a")) {
 			size.target = 15
 		}
 	}}"
 	onfocus="{(e) => {
-		if (e.target.tagName == "A") {
-			size.target = 20
+		if (e.target.closest("a")) {
+			size.target = 23
 		}
 	}}"
 	onblur="{(e) => {
-		if (e.target.tagName == "A") {
+		if (e.target.closest("a")) {
 			size.target = 15
 		}
 	}}"
 	>
 	<nav class=" m-auto mb-8 py-4 flex flex-wrap  gap-x-32 gap-y-2 text-gray-500 text-2xl justify-center">
-		<a href="/" class="hover:text-blue-100 border-b-2 border-black py-0.5">Home</a> 
-		<a href="/projects" class="hover:text-blue-100 border-b-2 border-black">Projects</a> 
-		<a href="/cv" class="hover:text-blue-100 border-b-2 border-black">CV</a> 
+		<a href="/" class="hover:text-blue-100 italic border-b-2 border-black py-0.5">Home</a> 
+		<a href="/projects" class="hover:text-blue-100 italic border-b-2 border-black">Projects</a> 
+		<a href="/cv" class="hover:text-blue-100 italic border-b-2 border-black">CV</a> 
 	</nav>
 	
 
@@ -70,7 +71,10 @@
 			cy={cursor_coords.current.y}
 			r= {size.current}
 			pointer-events= none
+			opacity = .75
+			style="fill: hsl({color}, 46%, 60%); transition: fill 0.2s ease;"
 		>
 		</circle>
 	</svg>
 </div>
+<svelte:window on:scroll={scrollHandler} />

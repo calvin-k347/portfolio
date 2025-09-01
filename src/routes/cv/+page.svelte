@@ -1,3 +1,12 @@
+<script>
+    import {Tween} from "svelte/motion"
+    import {cubicOut} from "svelte/easing"
+    let tween = new Tween(0, {
+        duration: 350,
+        easing: cubicOut
+
+    })
+</script>
 <div class="grid-cols-1 mx-auto rounded-lg w-full md:w-1/2 p-8 text-lg">
     <div class=" bg-white flex flex-col rounded-lg border-2 border-[#6ac8c8] p-4 shadow-lg mb-8">
         <h1 class="text-2xl italic font-bold ">Education</h1>
