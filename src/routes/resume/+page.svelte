@@ -21,9 +21,9 @@
         <h1 class=" italic font-bold text-2xl">Experience</h1>
         <p class="font-bold">Verticaly Integrated Project: Langauge and Idenity in the New South </p>
         <p class="text-[#6ac8c8] font-bold">2025</p>
-        <li class="ml-2">Joining the team this semester!</li>
-        <li class="ml-2">Sociolinguistic interviewing, transcription, and data analysis </li>
-        <li class="ml-2">Investigating 2nd wave sociolinguistic variation</li>
+        <li class="ml-2">Joined the team this semester!</li>
+        <li class="ml-2">Sociolinguistic interviewing, transcription, and data analysis using Python and R</li>
+        <li class="ml-2">Investigating 2nd wave sociolinguistic variation among Georgia Tech Students that grew up in Georgia</li>
         <p class="font-bold">Robins Airforce Base: Software Engineering Intern</p>
         <p class="text-[#6ac8c8] font-bold">2025</p>
         <li class="ml-2">Modeled and constructed circuits to simulate systems control for aircraft flare pattern dispense tests using LEDs</li>
@@ -43,6 +43,6 @@
 
     <div class="  bg-white flex flex-col rounded-lg border-2 border-[#6ac8c8] p-4 shadow-lg mb-8">
         <h1 class=" italic font-bold text-2xl">Skills</h1>
-        <p class="font-bold">Python, Pandas, scikit-learn, SvelteJS, Java</p>
+        <p class="font-bold">Python, pandas, numpy, SvelteJS, Java</p>
     </div>
 </div>

@@ -28,7 +28,6 @@
     {/snippet}
     {@render project("Language Change and Migration in Cordele, GA", cordele, "I was born in Cordele and most of my family is from there. \n\n We moved when I was 6, and over the years I've noticed more and more families move away from the town. \n \n Why? What consequneces does this have on language change?", "/projects/cordele")}
     {@render project("Minionese Speech Processing", minionese, "Speech recogniton tools require an orthographic transcription of the language. What can we do for unwritten languages? \n\n The minions speak an unwritten language, so I developed a pipline to process their speech and reconstruct phonological class" )}
-    {@render project("Langauge and Names", langandnames, "Fun simulation to see how your name may changed over the next 100 years using a Generalized Addiative Model created on decades of social security baby name data! \n\n Based on the paper \"Modeling Language Change in English First Names\" (Williams, Savannah Jane, and Margaret Renwick. 2022)", "/projects/names" )}
+    {@render project("Langauge and Names", langandnames, "See how sound features of your name influence a model's predictions of gender over time. Created on decades of US baby name data! \n\n Based on the paper \"Modeling Language Change in English First Names\" (Williams, Savannah Jane, and Margaret Renwick. 2022)", "/projects/names" )}
     
-    <div class="rounded-lg border-2 bg-gray-200 w-72 h-72 mx-auto"><p class="text-2xl m-auto mt-32 text-center">More soon!</p></div>
 </div>

@@ -1,6 +1,7 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
-a:hover {
-  @apply cursor-none;
+
+body{
+  cursor: default;
 }

@@ -4,12 +4,12 @@
         <p class="mx-auto text-xl italic underline">Southern Georgia Sociophonetics. Urban movement as a catalyst for language change</p>
     </div>
     {#snippet blog(date,title, text, img)}
-        <div class="grid mx-auto bg-white rounded-xl w-full md:w-2/3 py-4 border-2 border-[#6ac8c8]">
+        <div class="grid mx-auto bg-white rounded-xl w-full md:w-2/3  py-4 border-2 border-[#6ac8c8]">
             <p class="text-xl text-[#6ac8c8] ml-4 text-">{date}: <span class="text-black"> {title}</span></p>
             <p class="px-4 ">{text}</p>
         </div>
     {/snippet}
-    {@render blog("8/24", "King Papers", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum", [])}
-    {@render blog("Summer 2025","Project Ideation", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",[])}
+    {@render blog("9/19/25", "First Recordings", "This week I visted, recruited, and recorded my first interviews in Cordele!", [])}
+    {@render blog("Summer 2025","Project Ideation", "A big source of inspiration for this project was from reading Demographic change, migration, and the African American Vowel System in Georgia (Forrest, Jon & Renwick, Margaret & Stanley, Joseph & Glass, Lelia 2024). I wanted to take a granular look at AAE language chnage in Georgia by looking recent movement from rural to urban Black communites. ",[])}
 
 </div>
