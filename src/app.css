@@ -2,6 +2,11 @@
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
 
+@theme {
+  --font-serif: 'Roboto Slab Variable', serif;
+}
+
+
 body{
   cursor: default;
 }
