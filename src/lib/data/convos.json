@@ -25,7 +25,7 @@
     "id": 3,
     "messages": [
       { "type": "sent", "text": "I also like to read" },
-      { "type": "received", "text": "Nice, what have read recently" },
+      { "type": "received", "text": "Nice, what have you read recently" },
       { "type": "sent", "text": "Greek Lessons by Han Kang" },
       { "type": "sent", "text": "The Toki Pona translation of the Wonderful Wizard of Oz translated by Sonja Lang" },
       { "type": "sent", "text": "And its not recent, by my favorite thing I read was No Exit by Jean-Paul Sartre" }
