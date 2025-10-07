@@ -17,7 +17,7 @@
       { "type": "sent", "text": "Lets talk about music" },
       { "type": "received", "text": "What's your favorite song" },
       { "type": "sent", "text": "Oooh" },
-      { "type": "sent", "text": "Rn my favorite song is \"Lost scribe by MIKE. I love the whole album Showbiz! \"" },
+      { "type": "sent", "text": "Rn my favorite song is \"Lost scribe by MIKE\". I love the whole album Showbiz!" },
       {"type": "music", "sound":"/music/lost-scribe.mp3", "src":"/images/showbiz.jpg" }
     ]
   },
