@@ -15,7 +15,7 @@
         <p class="text-blue-300 font-bold">2024-2028</p>
         <ul class="list-disc ml-6">
             <li>Bachelor of Science in Computer Science and Minor in Linguistics</li>
-            <li>Concentrations: Theoretical CS and Human Centered Computing</li>
+            <li>Concentrations: Theoretical CS and People Centered Computing</li>
             <li>GPA: 3.60</li>
         </ul>
     </div>
