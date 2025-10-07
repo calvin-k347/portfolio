@@ -1,5 +1,4 @@
 <script>
-    import Block from "./Block.svelte";
     export let form 
     const rows = 14
     const cols = 14

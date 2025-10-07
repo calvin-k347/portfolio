@@ -1,10 +1,10 @@
 <div class="grid gap-8 ">
-    <div class="mt-8 mx-auto grid full md:w-2/3 py-4">
+    <div class="mt-8 mx-auto grid py-4">
         <h1 class="mx-auto text-2xl font-bold">Cordele Voices</h1>
-        <p class="mx-auto text-xl italic underline">Southern Georgia Sociophonetics. Urban movement as a catalyst for language change</p>
+        <p class="mx-auto text-xl italic underline">Southern Georgia Sociophonetics. Movement into middle GA as a catalyst for language change</p>
     </div>
     {#snippet blog(date,title, text, img)}
-        <div class="grid mx-auto bg-white rounded-xl w-full md:w-2/3  py-4 border-2 border-[#6ac8c8]">
+        <div class="grid bg-white rounded-xl  py-4 border-2 border-[#6ac8c8]">
             <p class="text-xl text-[#6ac8c8] ml-4 text-">{date}: <span class="text-black"> {title}</span></p>
             <p class="px-4 ">{text}</p>
         </div>
