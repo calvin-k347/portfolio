@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "messages": [
+      { "type": "sent", "text": "<span class=\"font-bold\">Hi I'm Calvin</span> <span class=\"text-2xl\">😃<span>" },
+      { "type": "photo", "src": "/images/stonemountain.png", "alt": "me at stone mountain" },
+      { "type": "received", "text": "Nice to meet you! <span class=\"text-2xl\">👍</span>" },
+      { "type": "sent", "text": "I am a 2nd year CS major @ <span class=\"text-[#B3A369] font-bold\">Georgia</span> <span class=\"text-[#003057] font-bold\">Tech</span>" },
+      { "type": "sent", "text": "I'm also minoring in linguistics, and a big interest of mine is using computers to understand the social meanings of language" }
+
+       
+    ]
+  },
+  {
+    "id": 2,
+    "messages": [
+      { "type": "sent", "text": "Lets talk about music" },
+      { "type": "received", "text": "What's your favorite song" },
+      { "type": "sent", "text": "Oooh" },
+      { "type": "sent", "text": "Rn my favorite song is \"Lost scribe by MIKE. I love the whole album Showbiz! \"" },
+      {"type": "music", "sound":"/music/lost-scribe.mp3", "src":"/images/showbiz.jpg" }
+    ]
+  },
+  {
+    "id": 3,
+    "messages": [
+      { "type": "sent", "text": "I also like to read" },
+      { "type": "received", "text": "Nice, what have read recently" },
+      { "type": "sent", "text": "Greek Lessons by Han Kang" },
+      { "type": "sent", "text": "The Toki Pona translation of the Wonderful Wizard of Oz translated by Sonja Lang" },
+      { "type": "sent", "text": "And its not recent, by my favorite thing I read was No Exit by Jean-Paul Sartre" }
+
+    ]
+  },
+  {
+    "id": 4,
+    "messages": [
+      { "type": "sent", "text": "<span class=\"font-bold\">Check out my projects and resume to learn more technical things about me!</span> " },
+      { "type": "received", "text": "Ok <span class=\"text-2xl\">😺😁😁👍</span> !!!" }
+
+    ]
+  }
+]

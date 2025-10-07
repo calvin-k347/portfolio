@@ -10,11 +10,23 @@
 body{
   cursor: default;
 }
-.glass-block {
-  /* From https://css.glass */
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3);
+audio::-webkit-media-controls-panel {
+  -webkit-justify-content: center;
+  height: 25px;
+  background-color: #efeee8;
+  width: 25px;
+}
+
+audio::-webkit-media-controls-timeline {
+  display: none !important;
+}
+
+audio::-webkit-media-controls-current-time-display {
+  display: none;
+}
+audio::-webkit-media-controls-play-button {
+  width:125px;
+}
+audio::-webkit-media-controls-time-remaining-display {
+  display: none;
 }
