@@ -51,7 +51,7 @@
                     </div>
                     <div class="text-lx" 
                             >
-                            <h1 class="text-xl text-center mb-2">Modeled probablity of name being given to female baby by decade </h1></div>
+                            <h1 class="text-xl text-center mb-2">Model's prediction of a name being female </h1></div>
             {/if}
             <div class="aspect-square w-full h-full grid relative">
                 {#if form}
